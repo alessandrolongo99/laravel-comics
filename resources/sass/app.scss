@@ -8,6 +8,7 @@
 
 a{
     all: unset;
+    cursor: pointer;
 }
 
 nav{
@@ -20,5 +21,15 @@ nav{
             font-weight: bolder;
             padding-left: 3rem;
         }
+    }
+}
+
+main{
+    background-color: $bg-dark-color;
+    img{
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+        object-position: top;
     }
 }

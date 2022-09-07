@@ -10854,6 +10854,7 @@ textarea.form-control-lg {
 
 a {
   all: unset;
+  cursor: pointer;
 }
 
 nav {
@@ -10867,4 +10868,16 @@ nav ul {
 nav ul li {
   font-weight: bolder;
   padding-left: 3rem;
+}
+
+main {
+  background-color: #1c1c1c;
+}
+main img {
+  height: 200px;
+  width: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
 }

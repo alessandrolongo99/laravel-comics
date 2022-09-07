@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,16 @@
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <title>DC Comics | @yield('title')</title>
 </head>
+
 <body>
-    @include('includes.header')    
+    @include('includes.header')
 
     <main>
-        @yield('main-content')
-        @dump($comics)
+        <div class="container py-5">
+            @yield('main-content')
+        </div>
     </main>
 
 </body>
+
 </html>
